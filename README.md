@@ -9,11 +9,11 @@ You can add users to the app memory sending a JSON with this structure:
 
 ```json
 {
-  "firstname": "mateo",
-  "lastname": "fortea",
-  "nickname": "mfortea",
+  "firstName" : "mateo",
+  "lastName" : "fortea",
+  "nickName" : "mfortea2",
   "password" : "pass1234",
-  "email": "mfortea@email.com",
+  "email" : "mfortea@email.com",
   "country": "es"
 }
 
@@ -43,9 +43,9 @@ Ex. If you want to update "mfortea" object, the route should be:
 And the JSON with the new data:
 ```json
 {
-  "firstname": "updated",
-  "lastname": "object",
-  "nickname": "mfortea",
+  "firstName": "updated",
+  "lastName": "object",
+  "nickName": "mfortea",
   "password" : "pass1234",
   "email": "mfortea2@email.com",
   "country": "it"
